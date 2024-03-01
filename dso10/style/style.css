@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('OpenType');
+    font-weight: normal;
+}
+
+:root{
+    --cor0:#fafffc;
+    --cor1:#F2668B;
+    --cor2:#025E73;
+    --cor3:#011F26;
+    --cor4:#026873;
+    --cor5:#03A688;
+
+    --fonte-padrao: arial,verdana, helvetica;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+    --fonte-android: 'Android', 'cursive';
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor3);
+    font-family: var(--fonte-padrao);
+}
+
+header{
+    background-color: var(--cor2);
+}
+
+header >h1{
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+
+header >p{
+    color: aliceblue;
+}
+
+nav{
+    background-color: var(--cor4);
+}
+
+main{
+    background-color: aliceblue;
+}
+
+main >h1{
+    color: var(--cor2);
+    font-family: var(--fonte-android);
+}
+main >h2{
+    font-family: var(--fonte-android);
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+em HTML é id    = em CSS é #
+em HTML é class = em CSS É .
+*/
+
+body{
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    color: aliceblue;
+}
+
+h1#principal{
+    text-align: center;
+}
+
+h2{
+    color: brown;
+}
+
+.b{
+    color: yellow;
+}
+
+.i{
+    color: blueviolet;
+}
+
+.a{
+    color: green;
+}
+
+p{
+    color: bisque;
+}
