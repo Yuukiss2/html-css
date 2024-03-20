@@ -9,11 +9,27 @@
     <form action="cadastro.php" method="get">
         <p>
             <label for="iest">Estado</label>
-            <select name="Estado" id="iest"></select>
-                <option value="hg">Minas Gerais</option>
-                <option value="pe">Pernambuco</option>
+            <select name="Estado" id="iest">
+                <option value=""selected>--- Escolha ---</option>
+                <optgroup label="amem">
+                    <option value="hg">Minas Gerais</option>
+                    <option value="pe">Pernambuco</option>
+                </optgroup>
+            </select>    
         </p>
 
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="istprof">
+            <datalist id="istprof">
+                <option >A</option>
+                <option >B</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </p>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="limpar">
